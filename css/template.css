@@ -2,11 +2,11 @@
 /***************
 	NUS - BANNER
 ***************/	
-.nus-banner{padding:0;margin:0;background:#003d7c;}
+.nus-banner{padding:0;margin:0;background:#660874;}
 .nus-banner img{width:100%;}
 .nus-banner .btn-primary{background:#ef7c00;border-color:#ff6600;}
 
-.nus-banner .carousel .item{height:500px;background:#003d7c;}
+.nus-banner .carousel .item{height:500px;background:#660874;}
 
 @media screen and (max-width:767px) {
 	.nus-banner{margin-bottom:30px;}
