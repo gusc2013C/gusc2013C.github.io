@@ -97,7 +97,7 @@ a:focus{outline:none;text-decoration:none;}
 /******************************************
 	FACULTY BORDER BETWEEN LOGO AND SUB-LOGO
 ******************************************/	
-.nus-faculty-border{float:left;margin:0 15px;border-left:1.5pt solid #003D7C;width:2px;height:60px;}
+.nus-faculty-border{float:left;margin:0 15px;border-left:1.5pt solid #660874;width:2px;height:60px;}
 @media screen and (max-width:991px) {
 	.nus-faculty-border{display:none;}
 }	
@@ -148,15 +148,15 @@ nav.nus-main-nav{margin:0;border-left:0;border-right:0;
 }
 nav.nus-main-nav .search-btn-box{float:right;margin:14px 0;}
 nav.nus-main-nav .search-btn-box a{height:50px;width:20px;padding:15px;}
-nav.nus-main-nav .search-btn-box a:hover{color:#ef7c00;text-decoration:none;}
+nav.nus-main-nav .search-btn-box a:hover{color:#660874;text-decoration:none;}
 
 .nus-megamenu{}
 .nus-megamenu .navbar-nav > li{margin-left:30px;}
 .nus-megamenu .navbar-nav > li:first-child{margin-left:0;}
 .nus-megamenu .navbar-nav > li > a{padding-left:0;padding-right:0;color:#999}
 .nus-megamenu .navbar-nav > li:hover > a,
-.nus-megamenu .navbar-nav > li > a:focus{box-shadow: 0 -3px 0 #ef7c00 inset;color:#000;background:transparent !important;}
-.nus-megamenu .navbar-nav li.active > a{box-shadow: 0 -3px 0 #ef7c00 inset;color:#003d7c;background:transparent !important;}
+.nus-megamenu .navbar-nav > li > a:focus{box-shadow: 0 -3px 0 #660874 inset;color:#000;background:transparent !important;}
+.nus-megamenu .navbar-nav li.active > a{box-shadow: 0 -3px 0 #660874 inset;color:#660874;background:transparent !important;}
 .nus-megamenu .navbar-nav .caret{margin-left:5px;}
 
 
@@ -166,7 +166,7 @@ nav.nus-main-nav .search-btn-box a:hover{color:#ef7c00;text-decoration:none;}
 	DROPDOWN MENU STYLE
 *********************/	
 .dropdown-menu{padding:0;padding:15px;display:none;border-radius:0;}
-.dropdown-menu > li > a{display:block;padding:10px;color:#003d7c;border-bottom:1px solid #f5f5f5;}
+.dropdown-menu > li > a{display:block;padding:10px;color:#660874;border-bottom:1px solid #f5f5f5;}
 .dropdown-menu > li:first-child > a{border-top:1px solid #f5f5f5;}
 .dropdown-menu > li:hover > a,
 .dropdown-menu > li:hover > a:focus{background:#f5f5f5 !important;}
@@ -182,7 +182,7 @@ nav.nus-main-nav .search-btn-box a:hover{color:#ef7c00;text-decoration:none;}
 .mega-menu > li {display: inline-block;float:left;}
 .mega-menu > li > ul{margin:0;padding:0;}
 .mega-menu > li > ul > li{display:inline-block;padding:0 10px;}
-.mega-menu > li > ul > li > a{display:block;padding:10px;color:#003d7c;border-bottom:1px solid #f5f5f5;width:225px;}
+.mega-menu > li > ul > li > a{display:block;padding:10px;color:#660874;border-bottom:1px solid #f5f5f5;width:225px;}
 .mega-menu > li > ul > li:first-child > a{border-top:1px solid #f5f5f5;}
 .mega-menu > li > ul > li > a:hover{background:#f5f5f5;color:#000;text-decoration:none;}
 .mega-menu .nav-header {color: inherit;font-size: 18px;line-height: normal;margin: 0;padding:10px 20px;}
@@ -227,7 +227,7 @@ NUS - SIDEBAR MENU - MOBILE - OFFCANVAS
 #nus-sidebar-off-canvas .body{padding:24px 12px;}
 #nus-sidebar-off-canvas .body .nus-module{}
 #nus-sidebar-off-canvas .body .nus-module .title{margin:0 0 10px 0;font-size:18px;}
-#nus-sidebar-off-canvas .body .nus-module ul > li > a{color:#003d7c;
+#nus-sidebar-off-canvas .body .nus-module ul > li > a{color:#660874;
 border-radius:0;
 -webkit-border-radius:0px; 
 -moz-border-radius:0px;
@@ -241,7 +241,7 @@ border-radius:0;
 #nus-sidebar-off-canvas .body .nus-module ul > li.current > a,
 #nus-sidebar-off-canvas .body .nus-module ul > li.active > a:hover,
 #nus-sidebar-off-canvas .body .nus-module ul > li.current > a:hover{
-background:#003d7c;color:#fff;
+background:#660874;color:#fff;
 }
 #nus-sidebar-off-canvas .body .nus-module ul li a:hover{
 background:#eee;color:#000;
@@ -255,8 +255,8 @@ NUS - SIDEBAR - COMPONENT LEVEL
 ***********************************/	
 .nus-sidebar-nav{margin-bottom:20px;}
 .nus-sidebar-nav li + li {margin-top:0;}
-.nus-sidebar-nav li.active a{background: none repeat scroll 0 0 #003d7c;color: #fff;}
-.nus-sidebar-nav li a{color:#003d7c;border-bottom:1px solid #eee;
+.nus-sidebar-nav li.active a{background: none repeat scroll 0 0 #660874;color: #fff;}
+.nus-sidebar-nav li a{color:#660874;border-bottom:1px solid #eee;
 border-radius:0;
 -webkit-border-radius:0px; 
 -moz-border-radius:0px;
@@ -287,7 +287,7 @@ border-radius:0;
 /********************
 NUS - BREADCRUMBS
 ********************/
-.nus-breadcrumbs{background:#002449;border-top: 1px solid #003d7c;padding:13px 0;} 
+.nus-breadcrumbs{background:#002449;border-top: 1px solid #660874;padding:13px 0;} 
 .nus-breadcrumbs ul{list-style:none;margin:0;padding:0;}
 .nus-breadcrumbs ul > li{display:inline-block;color:#999;margin-right:5px;}
 .nus-breadcrumbs ul > li .icon{padding-right:10px;color:#ef7c00;}
@@ -304,7 +304,7 @@ NUS - BREADCRUMBS
 NUS - DEPARTMENT - MASTHEAD
 ******************************/	
 .nus-department-header.mobile{display:none;}
-.nus-department-header .blue{background:#003d7c; color:#fff;border-bottom: 1px solid #0056af;}
+.nus-department-header .blue{background:#660874; color:#fff;border-bottom: 1px solid #0056af;}
 .nus-department-header .grey{background:#999999;border-bottom:1px solid #b3b3b3;color:#fff;}
 .nus-department-header .orange{background:#ef7c00;border-bottom:1px solid #ff9523;color:#fff;}
 .nus-department-header .container{padding-top:15px;padding-bottom:15px;}
