@@ -17,6 +17,8 @@
 .nus-components div[class*="col-"]{margin-bottom:30px;}
 .nus-components div[class*="col-lg-18"]{margin-bottom:0px;}
 .nus-components div[class*="col-lg-2"]{margin-bottom:0px;}
+.nus-components div[class*="col-lg-12"]{margin-bottom:0px;}
+.nus-components div[class*="col-lg-6"]{margin-bottom:0px;}
 .nus-components .page-header{margin-top:0;}
 .nus-components h2{margin:0 0 20px 0;}
 .nus-components .table2{border:0;}
@@ -33,6 +35,23 @@
 	.nus-featured-articles{margin:0 0 40px 0;}
 	.nus-featured-articles .intro-image{text-align:center;}
 	.nus-featured-articles img{width:inherit;}
+}
+
+.text-image-container {
+    display: flex;
+    align-items: normal; /* Align items vertically */
+    justify-content: flex-start;
+}
+
+.text-image-container p {
+    flex: 1; /* Allow the text to take up remaining space */
+    margin-right: 100px; /* Add some space between text and image */
+}
+
+.right-image {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    margin-right: 160px; /* Add some space between image and text */
+	margin-left: 20px;
 }
 
 /***********************************
